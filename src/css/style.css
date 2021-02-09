@@ -802,8 +802,12 @@ main.active section {
     width: 200px;
     height: 200px;
     border-radius: 100px;
-    border: 10px solid rgba(255, 255, 255, 0.05);
+    border: 0px solid rgba(255, 255, 255, 0.05);
     margin: 0px auto 30px auto;
+    background-image: url(../img/banner/profile3.jpg);
+    background-position: 0% 40%;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .banner .profile-img .activety {
