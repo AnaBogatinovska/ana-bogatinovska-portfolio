@@ -136,12 +136,13 @@ h6 {
 }
 
 p {
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 400;
     margin: 0;
     padding: 0;
     line-height: 27px;
     color: #585858;
+    text-align: justify;
 }
 
 ul,
@@ -3481,15 +3482,23 @@ footer .main-footer.v2 .btton-top-btn a:hover::after {
 .portfolio-item .project {
     border-bottom: 1px solid #3333330f;
     border-top: 1px solid #3333330F;
+    align-items: center;
 }
 
 .resources {
     margin-right: 16px;
+    margin-bottom: 6px;
     padding: 5px;
     background: #f4f4f4;
     color: #fc274d;
-    font-size: 12px;
-    font-family: system-ui
+    font-size: 14px;
+    font-family: system-ui;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    cursor: default;
+    border-radius: 3px;
+    box-shadow: 0 0 3px 0px rgb(0 0 0 / 10%);
 }
 
 .view-btns .source,
@@ -3523,4 +3532,7 @@ footer .main-footer.v2 .btton-top-btn a:hover::after {
 .carousel-inner .carousel-item img {
     object-fit: contain !important;
     height: 100% !important;
+}
+h3.portfolio-item-title {
+    font-size: 26px;
 }
