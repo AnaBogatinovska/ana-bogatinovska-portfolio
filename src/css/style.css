@@ -3525,7 +3525,6 @@ footer .main-footer.v2 .btton-top-btn a:hover::after {
 /* custom css */
 
 .portfolio-item .project {
-  border-bottom: 1px solid #3333330f;
   border-top: 1px solid #3333330f;
   align-items: center;
 }
