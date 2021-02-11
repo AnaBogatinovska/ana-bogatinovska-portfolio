@@ -3572,11 +3572,13 @@ footer .main-footer.v2 .btton-top-btn a:hover::after {
 .carousel-inner .carousel-item {
   height: 100%;
   text-align: center;
+  
 }
 
 .carousel-inner .carousel-item img {
   object-fit: contain !important;
   height: 100% !important;
+  cursor: pointer !important;
 }
 h3.portfolio-item-title {
   font-size: 26px;
@@ -3605,6 +3607,10 @@ h3.portfolio-item-title {
 
 .expand {
     font-size: 28px;
+}
+.expand:hover {
+  transition: all 0.3s;
+  font-size: 30px;
 }
 
 /* The Modal (background) */
@@ -3645,12 +3651,12 @@ h3.portfolio-item-title {
 .close-btn:focus {
   color: #999;
   text-decoration: none;
-  cursor: pointer;
 }
 
 .mySlides {
   display: none;
   height: 100%;
+  cursor: pointer;
 }
 .mySlides img {
     width: 100%;
