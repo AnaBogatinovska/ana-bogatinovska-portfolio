@@ -3536,3 +3536,11 @@ footer .main-footer.v2 .btton-top-btn a:hover::after {
 h3.portfolio-item-title {
     font-size: 26px;
 }
+
+.c-blue {
+    color:#337ab7;
+}
+.c-blue:hover {
+    color: #23527c;
+    text-decoration: underline;
+}
