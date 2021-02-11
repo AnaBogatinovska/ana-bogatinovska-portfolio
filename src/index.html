@@ -200,6 +200,8 @@
                     </div>
                   </div>
                   <div class=" col-xs-12 col-md-6">
+
+
                     <div id="stb-carousel" class="carousel slide" data-ride="carousel" >
                         <!-- Indicators -->
                         <ol class="carousel-indicators">
@@ -252,7 +254,58 @@
                           <span class="glyphicon glyphicon-chevron-right"></span>
                           <span class="sr-only">Next</span>
                         </a>
+
+                        <div class="open-modal-btn" onclick="openModal('lightbox-stb-modal'); currentSlide(1, 'stb-slides')"><i class="fas fa-expand"></i></div>  
+
                       </div>
+
+                      
+                    <!--- lightbox start -->  
+                    <div id="lightbox-stb-modal" class="light-modal">
+                      <span class="close-btn" onclick="closeModal('lightbox-stb-modal')">&times;</span>
+                      <div class="modal-content">
+                    
+                        <div class="mySlides stb-slides">
+                          <div class="numbertext">1 / 7</div>
+                          <img src="img/portfolio/stb-demo-pics/mobile-1.png">
+                        </div>
+                    
+                        <div class="mySlides stb-slides">
+                          <div class="numbertext">2 / 7</div>
+                          <img src="img/portfolio/stb-demo-pics/mobile-2.png">
+                        </div>
+                    
+                        <div class="mySlides stb-slides">
+                          <div class="numbertext">3 / 7</div>
+                          <img src="img/portfolio/stb-demo-pics/mobile-3.png">
+                        </div>
+                        
+                        <div class="mySlides stb-slides">
+                          <div class="numbertext">4 / 7</div>
+                          <img src="img/portfolio/stb-demo-pics/desktop-1.png">
+                        </div>
+                        
+                        <div class="mySlides stb-slides">
+                          <div class="numbertext">5 / 7</div>
+                          <img src="img/portfolio/stb-demo-pics/desktop-2.png">
+                        </div>
+                        
+                        <div class="mySlides stb-slides">
+                          <div class="numbertext">6 / 7</div>
+                          <img src="img/portfolio/stb-demo-pics/desktop-3.png">
+                        </div>
+                        
+                        <div class="mySlides stb-slides">
+                          <div class="numbertext">7 / 7</div>
+                          <img src="img/portfolio/stb-demo-pics/desktop-4.png">
+                        </div>
+                        
+                        <a class="prev" onclick="plusSlides(-1, 'stb-slides')">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1, 'stb-slides')">&#10095;</a>
+                     </div>
+                    </div>
+                      
+                    <!--- lightbox end -->    
                   </div>
                 </div>
               </div>
@@ -313,7 +366,37 @@
                           <span class="glyphicon glyphicon-chevron-right"></span>
                           <span class="sr-only">Next</span>
                         </a>
+
+                        <div class="open-modal-btn" onclick="openModal('lightbox-fb-modal'); currentSlide(1, 'fb-slides')"><i class="fas fa-expand"></i></div>  
+
                       </div>
+
+                      <!--- lightbox start -->  
+                    <div id="lightbox-fb-modal" class="light-modal">
+                      <span class="close-btn" onclick="closeModal('lightbox-fb-modal')">&times;</span>
+                      <div class="modal-content">
+                    
+                        <div class="mySlides fb-slides">
+                          <div class="numbertext">1 / 3</div>
+                          <img src="img/portfolio/facebook-demo/fb-1.png">
+                        </div>
+                    
+                        <div class="mySlides fb-slides">
+                          <div class="numbertext">2 / 3</div>
+                          <img src="img/portfolio/facebook-demo/fb-2.png">
+                        </div>
+                        
+                        <div class="mySlides fb-slides">
+                          <div class="numbertext">3 / 37</div>
+                          <img src="img/portfolio/stb-demo-pics/desktop-4.png">
+                        </div>
+                        
+                        <a class="prev" onclick="plusSlides(-1, 'fb-slides')">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1, 'fb-slides')">&#10095;</a>
+                     </div>
+                    </div>
+                      
+                    <!--- lightbox end -->    
                   </div>
                 </div>
               </div>
@@ -385,7 +468,43 @@
                             <span class="glyphicon glyphicon-chevron-right"></span>
                             <span class="sr-only">Next</span>
                         </a>
+
+                        <div class="open-modal-btn" onclick="openModal('lightbox-minesweep-modal'); currentSlide(1, 'minesweep-slides')"><i class="fas fa-expand"></i></div>  
+
                         </div>
+
+                        
+                      <!--- lightbox start -->  
+                    <div id="lightbox-minesweep-modal" class="light-modal">
+                      <span class="close-btn" onclick="closeModal('lightbox-minesweep-modal')">&times;</span>
+                      <div class="modal-content">
+                    
+                        <div class="mySlides minesweep-slides">
+                          <div class="numbertext">1 / 4</div>
+                          <img src="img/portfolio/minesweeper-demo/ms-1.png">
+                        </div>
+                    
+                        <div class="mySlides minesweep-slides">
+                          <div class="numbertext">2 / 4</div>
+                          <img src="img/portfolio/minesweeper-demo/ms-2.png">
+                        </div>
+                        
+                        <div class="mySlides minesweep-slides">
+                          <div class="numbertext">3 / 4</div>
+                          <img src="img/portfolio/minesweeper-demo/ms-3.png">
+                        </div>
+                        
+                        <div class="mySlides minesweep-slides">
+                          <div class="numbertext">4 / 4</div>
+                          <img src="img/portfolio/minesweeper-demo/ms-4.png">
+                        </div>
+                        
+                        <a class="prev" onclick="plusSlides(-1, 'minesweep-slides')">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1, 'minesweep-slides')">&#10095;</a>
+                     </div>
+                    </div>
+                      
+                    <!--- lightbox end -->    
                     </div>
                 </div>
                 </div>
@@ -416,8 +535,6 @@
                         </p>
 
                         <div class="d-flex view-btns mt-5">
-                            <!-- <div><a href="#" class="source mr-5">view source</a></div> -->
-                            <!-- <div><a href="#" class="demo">view demo</a></div> -->
                         </div>
                     </div>
                     <div class=" col-xs-12 col-md-6">
@@ -488,7 +605,73 @@
                             <span class="glyphicon glyphicon-chevron-right"></span>
                             <span class="sr-only">Next</span>
                         </a>
-                        </div>
+
+                        <div class="open-modal-btn" onclick="openModal('lightbox-transverzalec-modal'); currentSlide(1, 'transverzalec-slides')"><i class="fas fa-expand"></i></div>  
+
+                      </div>
+
+                      
+                    <!--- lightbox start -->  
+                  <div id="lightbox-transverzalec-modal" class="light-modal">
+                    <span class="close-btn" onclick="closeModal('lightbox-transverzalec-modal')">&times;</span>
+                    <div class="modal-content">
+                  
+                      <div class="mySlides transverzalec-slides">
+                        <div class="numbertext">1 / 10</div>
+                        <img src="img/portfolio/transverzalec/trans-m-1.png">
+                      </div>
+                  
+                      <div class="mySlides transverzalec-slides">
+                        <div class="numbertext">2 / 10</div>
+                        <img src="img/portfolio/transverzalec/trans-m-2.png">
+                      </div>
+                      
+                      <div class="mySlides transverzalec-slides">
+                        <div class="numbertext">3 / 10</div>
+                        <img src="img/portfolio/transverzalec/trans-m-3.png">
+                      </div>
+                      
+                      <div class="mySlides transverzalec-slides">
+                        <div class="numbertext">4 / 10</div>
+                        <img src="img/portfolio/transverzalec/trans-m-4.png">
+                      </div>
+                      
+                      <div class="mySlides transverzalec-slides">
+                        <div class="numbertext">5 / 10</div>
+                        <img src="img/portfolio/transverzalec/trans-d-1.png">
+                      </div>
+                      
+                      <div class="mySlides transverzalec-slides">
+                        <div class="numbertext">6 / 10</div>
+                        <img src="img/portfolio/transverzalec/trans-d-2.png">
+                      </div>
+                      
+                      <div class="mySlides transverzalec-slides">
+                        <div class="numbertext">7 / 10</div>
+                        <img src="img/portfolio/transverzalec/trans-d-3.png">
+                      </div>
+                      
+                      <div class="mySlides transverzalec-slides">
+                        <div class="numbertext">8 / 10</div>
+                        <img src="img/portfolio/transverzalec/trans-d-4.png">
+                      </div>
+                      
+                      <div class="mySlides transverzalec-slides">
+                        <div class="numbertext">9 / 10</div>
+                        <img src="img/portfolio/transverzalec/trans-d-5.png">
+                      </div>
+                      
+                      <div class="mySlides transverzalec-slides">
+                        <div class="numbertext">10 / 10</div>
+                        <img src="img/portfolio/transverzalec/trans-d-6.png">
+                      </div>
+                      
+                      <a class="prev" onclick="plusSlides(-1, 'transverzalec-slides')">&#10094;</a>
+                      <a class="next" onclick="plusSlides(1, 'transverzalec-slides')">&#10095;</a>
+                   </div>
+                  </div>
+                    
+                  <!--- lightbox end -->    
                     </div>
                 </div>
               </div>
@@ -594,7 +777,82 @@
                             <span class="glyphicon glyphicon-chevron-right"></span>
                             <span class="sr-only">Next</span>
                         </a>
-                        </div>
+                        <div class="open-modal-btn" onclick="openModal('lightbox-apvi-modal'); currentSlide(1, 'apvi-slides')"><i class="fas fa-expand"></i></div>  
+
+                      </div>
+
+                      
+                    <!--- lightbox start -->  
+                  <div id="lightbox-apvi-modal" class="light-modal">
+                    <span class="close-btn" onclick="closeModal('lightbox-apvi-modal')">&times;</span>
+                    <div class="modal-content">
+                  
+                      <div class="mySlides apvi-slides">
+                        <div class="numbertext">1 / 12</div>
+                        <img src="img/portfolio/apvi-demo/apvi-m-1.png">
+                      </div>
+                  
+                      <div class="mySlides apvi-slides">
+                        <div class="numbertext">2 / 12</div>
+                        <img src="img/portfolio/apvi-demo/apvi-m-2.png">
+                      </div>
+                      
+                      <div class="mySlides apvi-slides">
+                        <div class="numbertext">3 / 12</div>
+                        <img src="img/portfolio/apvi-demo/apvi-m-3.png">
+                      </div>
+                      
+                      <div class="mySlides apvi-slides">
+                        <div class="numbertext">4 / 12</div>
+                        <img src="img/portfolio/apvi-demo/apvi-m-4.png">
+                      </div>
+                      
+                      <div class="mySlides apvi-slides">
+                        <div class="numbertext">5 / 12</div>
+                        <img src="img/portfolio/apvi-demo/apvi-m-5.png">
+                      </div>
+                      
+                      <div class="mySlides apvi-slides">
+                        <div class="numbertext">6 / 10</div>
+                        <img src="img/portfolio/apvi-demo/apvi-m-6.png">
+                      </div>
+                      
+                      <div class="mySlides apvi-slides">
+                        <div class="numbertext">7 / 12</div>
+                        <img src="img/portfolio/apvi-demo/apvi-m-7.png">
+                      </div>
+                      
+                      <div class="mySlides apvi-slides">
+                        <div class="numbertext">8 / 12</div>
+                        <img src="img/portfolio/apvi-demo/apvi-d-1.png">
+                      </div>
+                      
+                      <div class="mySlides apvi-slides">
+                        <div class="numbertext">9 / 12</div>
+                        <img src="img/portfolio/apvi-demo/apvi-d-2.png">
+                      </div>
+                      
+                      <div class="mySlides apvi-slides">
+                        <div class="numbertext">10 / 12</div>
+                        <img src="img/portfolio/apvi-demo/apvi-d-3.png">
+                      </div>
+                      
+                      <div class="mySlides apvi-slides">
+                        <div class="numbertext">11 / 12</div>
+                        <img src="img/portfolio/apvi-demo/apvi-d-4.png">
+                      </div>
+                      
+                      <div class="mySlides apvi-slides">
+                        <div class="numbertext">12 / 12</div>
+                        <img src="img/portfolio/apvi-demo/apvi-d-5.png">
+                      </div>
+                      
+                      <a class="prev" onclick="plusSlides(-1, 'apvi-slides')">&#10094;</a>
+                      <a class="next" onclick="plusSlides(1, 'apvi-slides')">&#10095;</a>
+                   </div>
+                  </div>
+                    
+                  <!--- lightbox end -->   
                     </div>
                 </div>
               </div>
@@ -680,7 +938,52 @@
                             <span class="glyphicon glyphicon-chevron-right"></span>
                             <span class="sr-only">Next</span>
                         </a>
-                        </div>
+                        <div class="open-modal-btn" onclick="openModal('lightbox-ecommerce-modal'); currentSlide(1, 'ecommerce-slides')"><i class="fas fa-expand"></i></div>  
+
+                      </div>
+
+                      
+                    <!--- lightbox start -->  
+                  <div id="lightbox-ecommerce-modal" class="light-modal">
+                    <span class="close-btn" onclick="closeModal('lightbox-ecommerce-modal')">&times;</span>
+                    <div class="modal-content">
+                  
+                      <div class="mySlides ecommerce-slides">
+                        <div class="numbertext">1 / 6</div>
+                        <img src="img/portfolio/e-commerce/1.png">
+                      </div>
+                  
+                      <div class="mySlides ecommerce-slides">
+                        <div class="numbertext">2 / 2</div>
+                        <img src="img/portfolio/e-commerce/2.png">
+                      </div>
+                      
+                      <div class="mySlides ecommerce-slides">
+                        <div class="numbertext">3 / 6</div>
+                        <img src="img/portfolio/e-commerce/3.png">
+                      </div>
+                      
+                      <div class="mySlides ecommerce-slides">
+                        <div class="numbertext">4 / 6</div>
+                        <img src="img/portfolio/e-commerce/4.png">
+                      </div>
+                      
+                      <div class="mySlides ecommerce-slides">
+                        <div class="numbertext">5 / 6</div>
+                        <img src="img/portfolio/e-commerce/5.png">
+                      </div>
+                      
+                      <div class="mySlides ecommerce-slides">
+                        <div class="numbertext">6 / 6</div>
+                        <img src="img/portfolio/e-commerce/6.png">
+                      </div>
+                  
+                      <a class="prev" onclick="plusSlides(-1, 'ecommerce-slides')">&#10094;</a>
+                      <a class="next" onclick="plusSlides(1, 'ecommerce-slides')">&#10095;</a>
+                   </div>
+                  </div>
+                    
+                  <!--- lightbox end -->   
                     </div>
                 </div>
               </div>
@@ -1199,6 +1502,9 @@
 
     <!-- Index -->
     <script src="js/index.js"></script>
+
+    <!-- Lightbox -->
+    <script src="js/lightbox.js"></script>
 
     <link
       rel="stylesheet"
